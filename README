@@ -1,1 +1,3 @@
 Caffeine is a small set of tools that help manage when a computer should sleep, and when it should not.
+
+It consists of two parts. First the GUI, a simple tray icon that indicated the status of Caffeine and allows the user to change the status. Second, a small script that is placed in the pm-utils hook directory (probably /etc/pm/sleep.d/) that interfaces with pm-utils and the GUI to allow or inhibit sleeping.
